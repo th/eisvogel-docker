@@ -1,0 +1,12 @@
+from: markdown
+to: pdf
+template: eisvogel
+pdf-engine: xelatex
+metadata:
+  lang: de
+variables:
+  titlepage: true
+  titlepage-logo: "/pandoc/logo.png"
+  titlepage-rule-color: FFA500
+  toc: true
+
